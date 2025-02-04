@@ -34,7 +34,7 @@ void HanoiABC(int n, char cFrom, char cTo, char cWith)
     else
     {
         HanoiABC(n-1,cFrom,cWith,cTo);
-        printf("Move disc %d from %c to %c", n, cFrom,cTo);
+        printf("Move disc %d from %c to %c", n, cFrom,cTo); //HanoiABC(1,cFrom,cTo,cWith)
         HanoiABC(n-1,cWith,cTo,cFrom);
     }
 }
