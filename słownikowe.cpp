@@ -1,4 +1,10 @@
 
+
+
+
+
+
+
 int porSlow(char c1[], char c2[])
 {
     int i=0;
